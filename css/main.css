@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+
+html, body {
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#clearDiv {
+    clear:both;
+}
+
+h1 {
+    margin: 0px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+#gesture-input {
+    margin-right: 0;
+    cursor:crosshair;
+    float:left;
+}
+
+canvas {
+    /*background-color: Black;*/
+    background-color: Silver;
+    border: 1px solid White;
+    overflow: hidden;
+}
+
+#results {
+    margin-left: 70px;
+    text-align: left;
+    float:left;
+}
+
+#results p{
+    width: 150px;
+}
+
+#results canvas{
+    margin:auto;
+}
+
+#stroke-images {
+    float: left;
+    margin-left: 70px;
+}
