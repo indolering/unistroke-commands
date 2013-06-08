@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gesture Trainer</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <link type="text/css" media="screen" rel="stylesheet" href="css/main.css">
+
+  <!--Please leave these in the header and use a compiler refactor the script for faster load times.-->
+  <script type='text/javascript' src='https://cdn.firebase.com/v0/firebase.js'></script>
+  <script src="libs/jquery-1.10.1.js"></script>
+  <script src="libs/photoset-grid/jquery.photoset-grid.js"></script>
+  <script src="libs/ogg-tts/ogg-tts.js"></script>
+  <script src="libs/gesture-js/build/javascripts/Dollar.js"></script>
+  <script src="libs/gesture-js/build/javascripts/Gesture.js"></script>
+  <script src="libs/sketch.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/templates.jsonp"></script>
+
+</head>
+<body>
+<div id="container">
+
+  <canvas id="gesture-input" width="400px" height="400px">
+    <p>Draw here</p>
+  </canvas>
+
+  <div id="results">
+    <h1>
+      Results
+    </h1>
+
+    <h2 id="match">Detected:</h2>
+    <canvas id="gesture-output" width="100px" height="100px">
+      <p>Drawings show up here!</p>
+    </canvas>
+    <br/>
+    <img id="matching-template" src="" alt="matched shape">
+    <!--TODO: get N/A image icon, style score -->
+
+  </div>
+
+  <div id="stroke-images">
+    <h1>
+      Recognized gestures
+    </h1>
+    <img src="images/templates/caret.png" alt="">
+    <img src="images/templates/check.png" alt="">
+    <img src="images/templates/arrow.png" alt="">
+    <img src="images/templates/circle.png" alt=""><br>
+
+    <img src="images/templates/delete.png" alt="">
+    <img src="images/templates/left-square-bracket.png" alt="">
+    <img src="images/templates/right-square-bracket.png" alt="">
+    <img src="images/templates/left-curly-brace.png" alt=""><br>
+
+    <img src="images/templates/right-curly-brace.png" alt="">
+    <img src="images/templates/pigtail.png" alt="">
+    <img src="images/templates/rectangle.png" alt="">
+    <img src="images/templates/star.png" alt=""><br>
+
+    <img src="images/templates/triangle.png" alt="">
+    <img src="images/templates/v.png" alt="">
+    <img src="images/templates/x.png" alt="">
+    <img src="images/templates/zig-zag.png" alt="">
+  </div>
+
+  <div id="clearDiv"></div>
+</div>
+</body>
+</html>
