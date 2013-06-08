@@ -57,10 +57,10 @@ $(function() {
 
   if(window.mobile()){
     console.log("mobile");
-    tts.play("mobile");
+    tts.play("mobile"); //debuggery
   } else {
     console.log("not mobile");
-    tts.play("not mobile");
+    tts.play("not mobile"); //debuggery
   }
 
   //body
