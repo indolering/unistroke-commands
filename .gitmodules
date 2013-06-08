@@ -1,0 +1,3 @@
+[submodule "libs/gesture-js"]
+	path = libs/gesture-js
+	url = git://github.com/jcipriano/gesture-js.git
